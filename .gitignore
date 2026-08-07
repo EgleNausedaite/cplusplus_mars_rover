@@ -1,0 +1,8 @@
+# CMake build directories
+cmake-build-*/
+
+# CLion / JetBrains
+.idea/
+
+# macOS
+.DS_Store
