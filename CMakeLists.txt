@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 4.3)
+cmake_minimum_required(VERSION 3.5)
 project(c___skeleton)
 
 set(CMAKE_CXX_STANDARD 20)
 
 include(FetchContent)
+
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 
 FetchContent_Declare(
         googletest
